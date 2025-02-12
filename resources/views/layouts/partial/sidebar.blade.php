@@ -41,6 +41,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url('admin/informasi') }}">informasi</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url('admin/tempatwisata') }}">tempat wisata</a>
+                    </li>
                 </ul>
             </div>
         </li>
