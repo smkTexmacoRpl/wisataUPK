@@ -30,10 +30,10 @@
             <div class="collapse" id="ui-basic">
                 <ul class="nav flex-column sub-menu">
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('admin/kabupaten') }}">kabupaten</a>
+                        <a class="nav-link" href="{{ url('admin/kabupatens') }}">kabupaten</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('admin/kecamatan') }}">kecamatan</a>
+                        <a class="nav-link" href="{{ url('admin/kecamatans') }}">kecamatan</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url('admin/kategories') }}">kategori</a>
