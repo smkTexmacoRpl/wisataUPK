@@ -8,9 +8,7 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\KabupatenController;
 use App\Http\Controllers\KategoryController;
 use App\Http\Controllers\KecamatanContoller;
-
-
-
+use App\Http\Controllers\WisataController;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
@@ -42,6 +40,7 @@ Route::prefix('admin')->middleware(['auth', 'userAccess:admin'])->group(function
         '/kabupatens' => KabupatenController::class,
         '/kecamatans' => KecamatanContoller::class,
         '/kategories' => KategoryController::class,
+        '/wisatas' => WisataController::class,
 
 
     ]);

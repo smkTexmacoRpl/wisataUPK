@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Kategory extends Model
 {
@@ -12,9 +13,8 @@ class Kategory extends Model
     {
         return $this->hasMany(Info::class);
     }
+    public function wisatas(): HasMany
+    {
+        return $this->hasMany(Wisata::class);
+    }
 }
-
-
-
-
-
